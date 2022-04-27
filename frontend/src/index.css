@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #212529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Shadows Into Light", cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-content {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+
+.add-btn {
+  height: fit-content;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 50;
+  margin: 0 5px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.logo-link {
+  font-size: 1.5rem;
+  font-weight: 50;
+  margin: 0 5px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  text-align: center;
+}
+
+.err-msg {
+  color: red;
+}
+
+.registration-link {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.main-footer {
+  position: absolute;
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.3rem;
+  bottom: 0;
+  width: 100%;
+}
+
+.homepage-footer {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.3rem;
+  bottom: 0;
+  width: 100%;
+}
+
+.link {
+  color: aliceblue;
+}

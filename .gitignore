@@ -1,0 +1,60 @@
+todo_api/HELP.md
+todo_api/target
+
+!todo_api/.mvn/wrapper/maven-wrapper.jar
+!todo_api/**/src/main/**/target/
+!todo_api/**/src/test/**/target/
+
+### STS ###
+todo_api/.mvn
+todo_api/.apt_generated
+todo_api/.classpath
+todo_api/.factorypath
+todo_api/.project
+todo_api/.settings
+todo_api/.springBeans
+todo_api/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+**/.pnp
+**/.pnp.js
+
+# testing
+/coverage
+
+# production
+**/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
